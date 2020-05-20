@@ -1,4 +1,3 @@
-a = int(input("enter a:"))
-b = int(input("enter b:"))
-print  (a+b)
-print (a/b)
+name = input ("enter name: ")
+age = input ("enter age: ")
+print ("name: ", name, "age: ", age)
