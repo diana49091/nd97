@@ -1,3 +1,8 @@
-name = input ("enter name: ")
-age = input ("enter age: ")
-print ("name: ", name, "age: ", age)
+from math import sqrt
+a = int(input())
+b = int (input())
+c = int (input())
+p = (a+b+c)/2
+
+s = ((p*(p-a)*(p-b)*(p-c)))
+print(s)
